@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+  }
+  
+  /*==== Caixa ====*/
+  header {
+    background: #ffffff;
+    padding: 2px;
+  }
+  
+  .caixa {
+    position: relative;
+    width: 700px;
+    margin: auto;
+  }
+  
+  nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #c719b8;
+    text-decoration: underline;
+  }
+
+  /*==== titulo, história, Album====*/
+  .Titulo {
+    background-color: #c719b8;
+    padding: 20px;
+    border-radius: 45px;
+  }
+
+  #historia {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 45px;
+  }
+  
+  #album {
+    background-color: #c719b8;
+    padding: 20px;
+    border-radius: 45px;
+    margin-bottom: 8px;
+  }
+  
+  /*====== Table ======*/
+  #Músicas {
+    background-color: rgb(119, 17, 17);
+    padding: 20px;
+    border-radius: 45px;
+  }
+
+    table, th, td {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }
+  /*====== direitos autorais ======*/
+  footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+  
